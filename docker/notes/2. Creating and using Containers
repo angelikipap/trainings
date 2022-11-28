@@ -1,0 +1,27 @@
+sudo  service docker  start
+
+docker version
+docker info
+
+
+### Previous syntax of commands
+docker run
+### New syntax 
+docker container run
+
+
+    Start a container 
+    sudo docker container run -d  -p 80:8080 --name nginx  nginx
+    -p is for port mapping from a docker network port to a host port
+    -name is the name you want to give to your container
+    -d is for running in detach mode (if you start without detach the container will stop when you exit)
+
+    Stop a container 
+
+    Start a container
+
+    Remove a container
+
+    List running containers
+
+    List all containers (and the stopped ones)
